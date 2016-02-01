@@ -1,0 +1,5 @@
+.tmp
+.DS_Store
+*.pem
+build/
+node_modules/

@@ -1,0 +1,32 @@
+{
+  "name": "IMDb rating",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Display IMDb rating",
+  "icons": {
+    "38": "images/icon-38.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "*://www.omdbapi.com/*"
+  ],
+  "page_action": {
+    "default_icon": {
+      "19": "images/rating-0.png",
+      "38": "images/rating-0.png"
+    },
+    "default_title": "IMDb"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mp4ba.com/show.php?*",
+        "*://*.bttiantang.com/subject/*"
+      ],
+      "js": ["jquery.js", "contents.js"]
+    }
+  ]
+}
