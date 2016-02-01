@@ -2,6 +2,8 @@
 
 ## Support movie communities
 
+- 豆瓣电影 http://movie.douban.com/
+
 - BT天堂 http://www.bttiantang.com/
 
 - Mp4Ba http://www.mp4ba.com/
@@ -24,6 +26,10 @@ cd imdb-rating-chrome && npm i && npm run build
 3. 将下载的crt文件拖入chrome浏览器，安装！
 
 ## Screen Shots
+
+> 豆瓣电影
+
+![screen shot of douban](screen_shot_3.png)
 
 > Mp4ba
 

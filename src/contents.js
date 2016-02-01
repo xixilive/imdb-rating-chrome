@@ -9,6 +9,11 @@
       var t = $('.main', body).text();
       var m = t.match(/imdb.+?tt\s*(\d+)?/i);
       return m ? 'tt' + m[1] : null;
+    },
+    'douban': function(body){
+      var t = $('#content #info', body).text();
+      var m = t.match(/imdb.+?tt\s*(\d+)?/i);
+      return m ? 'tt' + m[1] : null;
     }
   };
 
@@ -18,6 +23,9 @@
     }
     if(/mp4ba\.com$/.test(host)){
       return providers['mp4ba'];
+    }
+    if(/movie\.douban\.com$/.test(host)){
+      return providers['douban'];
     }
     return function(){ return null; }
   }

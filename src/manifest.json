@@ -24,7 +24,8 @@
     {
       "matches": [
         "*://*.mp4ba.com/show.php?*",
-        "*://*.bttiantang.com/subject/*"
+        "*://*.bttiantang.com/subject/*",
+        "*://movie.douban.com/subject/*"
       ],
       "js": ["jquery.js", "contents.js"]
     }
