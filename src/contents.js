@@ -7,7 +7,7 @@
     },
     'mp4ba': function(body){
       var t = $('.main', body).text();
-      var m = t.match(/imdb.+?tt\s*(\d+)?/i);
+      var m = t.match(/imdb.+tt\s*(\d+)?/i);
       return m ? 'tt' + m[1] : null;
     },
     'douban': function(body){
