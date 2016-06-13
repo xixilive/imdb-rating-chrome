@@ -1,5 +1,7 @@
 # A chrome extension to display IMDb rating
 
+** NOTE: Google Chrome Store security policy forbids to install extensions from outside now  **
+
 ## Support movie communities
 
 - 豆瓣电影 http://movie.douban.com/
